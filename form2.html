@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>047_Registration Form</title>
+		<style>
+			h3{
+				text-align: center;
+				font-size: 2.0em;
+				text-decoration: underline;
+			}
+			.capital{
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+			td{
+				padding-left: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<form name="form">
+			<table align="center" width="300" height="900" style="background-color: lightblue">
+				<caption>
+				<h3>Student Registration Form</h3>
+				</caption>
+				<tr>
+					<td class="capital">First Name</td>
+					<td><input type="text" name="firstname" id="fname">(max 30 characters a-z and A-Z)</td>
+				</tr>
+				<tr>
+					<td class="capital">Last Name</td>
+					<td><input type="text" name="lastname" id="lname">(max 30 characters a-z and A-Z)</td>
+				</tr>
+				<tr>
+					<td class="capital">Date Of Birth</td>
+					<td><input type="date" name="dob"></td>
+				</tr>
+				<tr>
+					<td class="capital">Email Id</td>
+					<td><input type="email" name="mail"></td>
+				</tr>
+				<tr>
+					<td class="capital">Mobile Number</td>
+					<td><input type="text" name="mobile" id="mobile">(10 digit number)</td>
+				</tr>
+				<tr>
+					<td class="capital">Gender</td>
+					<td>Male<input type="radio" name="gender">Female<input type="radio" name="gender"></td>
+				</tr>
+				<tr>
+					<td class="capital">Address</td>
+					<td><textarea rows="4" cols="30" name="address"></textarea></td>
+				</tr>
+				<tr>
+					<td class="capital">City</td>
+					<td><input type="text" name="city" id="city">(max 30 characters a-z and A-Z)</td>
+				</tr>
+				<tr>
+					<td class="capital">Pincode</td>
+					<td><input type="text" name="pincode" id="pincode">(6 digit number)</td>
+				</tr>
+				<tr>
+					<td class="capital">State</td>
+					<td><input type="text" name="state" id="state">(max 30 characters a-z and A-Z)</td>
+				</tr>
+				<tr>
+					<td class="capital">Country</td>
+					<td><input type="text" placeholder="India" name="country"></td>
+				</tr>
+				<tr>
+					<td class="capital">Hobbies</td>
+					<td>Drawing<input type="checkbox" name="hobbies">Singing<input type="checkbox" name="hobbies">Dancing<input type="checkbox" name="hobbies">
+					Sketching<input type="checkbox" name="hobbies"><br>Others&nbsp;<input name="hobbies"></td>
+				</tr>
+				<tr>
+					<td class="capital">Qualification</td>
+					<td>
+						<table cellspacing="5px">
+							<tr align="center">
+								<th>Sl.No</th>
+								<th>Examination</th>
+								<th>Board</th>
+								<th>Percentage</th>
+								<th>Year Of Passing</th>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>Class X</td>
+								<td><input type="text"></td>
+								<td><input type="text"></td>
+								<td><input type="text"></td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>Class XII</td>
+								<td><input type="text"></td>
+								<td><input type="text"></td>
+								<td><input type="text"></td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>Graduation</td>
+								<td><input type="text"></td>
+								<td><input type="text"></td>
+								<td><input type="text"></td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>Masters</td>
+								<td><input type="text"></td>
+								<td><input type="text"></td>
+								<td><input type="text"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td class="capital">Courses<br>applied for</td>
+					<td>BCA<input type="radio" name="course">B.Com<input type="radio" name="course">B.Sc<input type="radio" name="course">B.A<input type="radio" name="course"></td>
+				</tr>
+				<tr>
+                    <td colspan="2" align="center"><button type="button" id="submitButton">Submit</button type="reset">&nbsp;<button id="resetButton">Reset</button></td>
+				</tr>
+			</div>
+		</table>
+	</form>
+	<script src="form.js"></script>
+	<!-- K.Sreeram 1602-16-737-047 -->
+</body>
+</html>
