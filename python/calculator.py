@@ -35,5 +35,5 @@ print("</html>")
 
 print("\n")
 
- 
+calculator(a,b,op)
 
